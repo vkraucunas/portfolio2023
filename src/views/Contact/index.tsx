@@ -10,7 +10,7 @@ function Contact() {
           <strong>LinkedIn</strong>
         </p>
       </a>
-      <a href="mailto:valerie@gibsunas.co">
+      <a href="mailto:valerie@gibsunas.co?subject=Mail from vkraucunas.com">
         <p>
           <strong>Email</strong>
         </p>

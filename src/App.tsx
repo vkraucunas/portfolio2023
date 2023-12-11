@@ -11,9 +11,7 @@ function App() {
         Skip to main content
       </Link>
       <header>
-        <Link to="/" c>
-          VK
-        </Link>
+        <Link to="/">VK</Link>
         <nav>
           <Link to="/cv">my work</Link>
           <Link to="/contact">contact</Link>

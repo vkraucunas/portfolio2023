@@ -23,12 +23,12 @@ function Home() {
         <p>
           I am passionate about design systems, accessibility, and
           problem-solving on the DOM. I enjoy sitting at the intersection of
-          product design and software engineering to create usable UI.
+          product design and software engineering to create practical UI.
         </p>
       </section>
       <section>
         <h2>Specialties and experience</h2>
-        <ul>
+        <ul role="presentation">
           <li>
             <h3>Design System Engineer</h3>
             <p>
