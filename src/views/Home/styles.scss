@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-weight: 600;
+  }
+  .portrait {
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+    position: inline;
+    shape-margin: 1rem;
+    shape-outside: circle(50% at 0 0);
+    float: left;
+    vertical-align: middle;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+    font-family: var(--serif-font);
+  }
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column;
+
+    .portrait {
+      width: 70%;
+    }
+  }
+
+  section {
+    margin-bottom: 1.5rem;
+  }
+}
