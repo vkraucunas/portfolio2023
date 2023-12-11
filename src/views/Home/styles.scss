@@ -13,7 +13,6 @@
     position: inline;
     shape-margin: 1rem;
     shape-outside: circle(50% at 0 0);
-    float: left;
     vertical-align: middle;
   }
 
@@ -25,6 +24,17 @@
 
 section {
   margin-bottom: 2.5rem;
+
+  h2 {
+    margin-bottom: 1.75rem;
+  }
+  .skilllist li {
+    margin-bottom: 2rem;
+
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 @media (max-width: 480px) {
