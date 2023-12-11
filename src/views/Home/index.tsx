@@ -24,23 +24,26 @@ function Home() {
           I am passionate about design systems, accessibility, and
           problem-solving on the DOM. I enjoy sitting at the intersection of
           product design and software engineering to create practical UI for
-          positive user experiences.
+          positive user experiences. As a career-changer, I came to software
+          because I was tired of unintuitive, lazy UI in back office software.
+          Form elements and patterns and other work-horse parts of the internet
+          are my favorite.
         </p>
       </section>
       <section>
-        <h2>Specialties & Skills</h2>
+        <h2>Specialties</h2>
         <ul role="presentation" className="skilllist">
           <li>
             <h3>Design Engineering</h3>
             <p>
               From requirements gathering and empathizing with the user to AB
               testing, I like to be involved early in the process of making
-              software. While I do not tend to generate UI, I have the problem
-              solving skills of a designer and enjoy collaborating closely with
-              them. I get a kick out of interpretting working UI from design
-              deliverables. This position in the process allows me to consider
-              and speak up for end users and feature engineers. It also
-              positions me close to design systems and component libraries,
+              software. While I do not tend to generate designs, I have the
+              problem solving skills of a designer and enjoy collaborating
+              closely with them. I get a kick out of interpretting working UI
+              from design deliverables. This position in the process allows me
+              to consider and speak up for end users and feature engineers. It
+              also positions me close to design systems and component libraries,
               which are favorites of mine.
             </p>
           </li>
@@ -51,7 +54,7 @@ function Home() {
               comfortable with rapid code delivery, even live coding, to help
               settle "this or that?" debates. High-fidelity, coded prototypes
               are the premier way to user test. I adore bringing ideas to life
-              to see which is best.
+              to see which works best.
             </p>
           </li>
           <li>
@@ -67,8 +70,9 @@ function Home() {
               &nbsp; From color contrast to tap target sizing, I have surfaced
               accessibility improvement opportunities to every job I've had as
               an engineer. I'm an enthusiastic proponent of designing from the
-              margins, or considering how people with different disabilty types
-              would interact with a UI.
+              margins, or considering how people with different disability types
+              would interact with a UI. Like the curb cut effect, software
+              designed with disabilities in mind can be appreciated by everyone.
             </p>
           </li>
           <li>
@@ -81,11 +85,11 @@ function Home() {
               with live coding.
             </p>
             <p>
-              More recently, I maintain multiple mentees. I enjoy using code
-              review, professional coaching including resume review, and some
-              emotional support to build their confidence as they join the
-              industry and find their way. I have been a moderator of the Denver
-              Devs online community since 2018, and take the role modeling and
+              Over the years, I've maintained multiple mentees. I enjoy using
+              code review, professional coaching including resume review, and
+              some emotional support to build their confidence as they join the
+              industry and find their way. I was a moderator of the Denver Devs
+              online community from 2018 to 2023, and take the role modeling and
               empathy aspects of leadership seriously.
             </p>
             <p>
@@ -95,6 +99,22 @@ function Home() {
             </p>
           </li>
         </ul>
+      </section>
+      <section>
+        <h2>Toolbox</h2>
+        <p>
+          Front-end: JavaScript, React, Vue, TypeScript, HTML, CSS, SCSS,
+          Shopify, Zustand
+        </p>
+        <p>Back-end: Node, Express, PostgreSQL, Mongo</p>
+        <p>
+          Workflow: Git, Github, Github Actions, GitLab, JIRA, Trello, Jest,
+          ESLint, Stylelint, Vite, Jest, Webpack
+        </p>
+        <p>
+          Additional skills: Style dictionary, Figma, Design thinking, Systems
+          thinking, Branding, Procreate, GIMP, Headshot photography
+        </p>
       </section>
     </>
   );
