@@ -23,35 +23,35 @@ function Home() {
         <p>
           I am passionate about design systems, accessibility, and
           problem-solving on the DOM. I enjoy sitting at the intersection of
-          product design and software engineering to create practical UI.
+          product design and software engineering to create practical UI for
+          positive user experiences.
         </p>
       </section>
       <section>
-        <h2>Specialties and experience</h2>
-        <ul role="presentation">
+        <h2>Specialties & Skills</h2>
+        <ul role="presentation" className="skilllist">
           <li>
-            <h3>Design System Engineer</h3>
+            <h3>Design Engineering</h3>
             <p>
-              A year-plus spent on a cross-functional, enterprise design system
-              team, where I independently established standards for and built
-              out a multi-platform design token library and participated in a
-              swarm effort to write components that consumed those tokens.
-              Discovery and corrections from the implementation effort helped me
-              increment the token library from alpha to beta; ultimately
-              delivering a complete, documented set of tokens for web, most
-              tokens for TV, and core tokens for Android SDK use.
+              From requirements gathering and empathizing with the user to AB
+              testing, I like to be involved early in the process of making
+              software. While I do not tend to generate UI, I have the problem
+              solving skills of a designer and enjoy collaborating closely with
+              them. I get a kick out of interpretting working UI from design
+              deliverables. This position in the process allows me to consider
+              and speak up for end users and feature engineers. It also
+              positions me close to design systems and component libraries,
+              which are favorites of mine.
             </p>
           </li>
           <li>
-            <h3>Prototyper</h3>
+            <h3>Prototyping</h3>
             <p>
-              Over two years embedded in a multidisciplinary design group
-              building high-fidelity code prototypes for rapid proofs of concept
-              and user testing. Heavily focused into advanced settings screens
-              in user portals, I acted as a "front-end dev in the room," able to
-              engage the hypotheticals and answer questions early in the
-              process. I enjoy design + dev pairing sessions to work through the
-              details.
+              These skills are the embodiment of "show, don't tell." I'm
+              comfortable with rapid code delivery, even live coding, to help
+              settle "this or that?" debates. High-fidelity, coded prototypes
+              are the premier way to user test. I adore bringing ideas to life
+              to see which is best.
             </p>
           </li>
           <li>
@@ -64,9 +64,11 @@ function Home() {
               >
                 One in four adults in the US live with a disability.
               </a>
-              &nbsp; I have surfaced accessibility improvement opportunities to
-              every job I've had as an engineer. I am currently working thru
-              Deque University's Web Accessibility curriculum.
+              &nbsp; From color contrast to tap target sizing, I have surfaced
+              accessibility improvement opportunities to every job I've had as
+              an engineer. I'm an enthusiastic proponent of designing from the
+              margins, or considering how people with different disabilty types
+              would interact with a UI.
             </p>
           </li>
           <li>
