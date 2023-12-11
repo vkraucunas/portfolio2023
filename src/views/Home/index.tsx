@@ -108,8 +108,8 @@ function Home() {
         </p>
         <p>Back-end: Node, Express, PostgreSQL, Mongo</p>
         <p>
-          Workflow: Git, Github, Github Actions, GitLab, JIRA, Trello, Jest,
-          ESLint, Stylelint, Vite, Jest, Webpack
+          Workflow: Git, Github, Github Actions, GitLab, Jest, ESLint,
+          Stylelint, Vite, Webpack, JIRA, Trello
         </p>
         <p>
           Additional skills: Style dictionary, Figma, Design thinking, Systems
