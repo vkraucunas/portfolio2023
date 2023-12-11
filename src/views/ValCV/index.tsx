@@ -104,6 +104,24 @@ function ValCV() {
           established a peer code review process for the students.
         </p>
       </section>
+      <section>
+        <h2>Before software</h2>
+        <p>
+          Prior to my transition to software, I worked as an administrative
+          assistant in the nonprofit and higher education spaces. It was here
+          that I learned that the user experience of back office software of was
+          atrocious and I was motivated to deliver something better. This work
+          also built up my customer service skills.
+        </p>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <p>
+          I attended Galvanize Full Stack code bootcamp in 2016. I learned HTML,
+          CSS, JavaScript, Node, Express, PostgreSQL, AngularJS and more.
+        </p>
+        <p>I also hold a BA in Political Science from Creighton University.</p>
+      </section>
     </div>
   );
 }

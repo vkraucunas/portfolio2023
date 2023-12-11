@@ -103,18 +103,35 @@ function Home() {
       <section>
         <h2>Toolbox</h2>
         <p>
-          Front-end: JavaScript, React, Vue, TypeScript, HTML, CSS, SCSS,
-          Shopify, Zustand
-        </p>
-        <p>Back-end: Node, Express, PostgreSQL, Mongo</p>
-        <p>
-          Workflow: Git, Github, Github Actions, GitLab, Jest, ESLint,
-          Stylelint, Vite, Webpack, JIRA, Trello
+          <strong>Front-end:</strong> JavaScript, React, Vue, TypeScript, HTML,
+          CSS, SCSS, Shopify, Zustand
         </p>
         <p>
-          Additional skills: Style dictionary, Figma, Design thinking, Systems
-          thinking, Branding, Procreate, GIMP, Headshot photography
+          <strong>Back-end:</strong> Node, Express, PostgreSQL, Mongo
         </p>
+        <p>
+          <strong>Workflow:</strong> Git, Github, Github Actions, GitLab, Jest,
+          ESLint, Stylelint, Vite, Webpack, JIRA, Trello
+        </p>
+        <p>
+          <strong>Additional skills:</strong> Style dictionary, Figma, Design
+          thinking, Systems thinking, Branding, Procreate, GIMP, Headshot
+          photography
+        </p>
+      </section>
+      <section>
+        <h2>What else?</h2>
+        <ul className="skilllist">
+          <li>
+            <strong>How is Kraucunas pronounced?</strong> "cruh soon uss" It
+            trips up most folks, so don't feel bad
+          </li>
+          <li>
+            <strong>What do you get up to outside of work?</strong> I enjoy
+            gardening, video games, and getting outside to appreciate the beauty
+            Colorado has to offer.
+          </li>
+        </ul>
       </section>
     </>
   );
