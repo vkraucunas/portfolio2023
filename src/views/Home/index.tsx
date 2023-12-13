@@ -1,5 +1,5 @@
 import "./styles.scss";
-import headshot from "../../assets/valerie.jpg";
+import headshot from "../../assets/valerie.webp";
 
 function Home() {
   return (
