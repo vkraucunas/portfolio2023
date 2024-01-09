@@ -19,8 +19,8 @@ function ValCV() {
           component library. This work was done in React and Electron.
         </p>
         <p>
-          This project won an Awwwards Site of the Day and a FWA Site of the
-          Day.
+          This product was a finalist in the VR Awards Outstanding VR Company of
+          the Year in 2023.
         </p>
         <p>
           After the proof of concept was successful, we took learnings from the
