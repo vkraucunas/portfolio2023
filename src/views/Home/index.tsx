@@ -14,20 +14,18 @@ function Home() {
         <img
           className="portrait"
           src={headshot}
-          alt="Valerie Kraucunas artsy headshot, she smiles and has lavender, aqua and blue hair and glasses. Around her are drawn-in elements of a tea kettle and tea cups, leafy plant, and a crescent moon and stars"
+          alt="Valerie Kraucunas artsy headshot, she smiles and has lavender, aqua and blue hair and glasses. Around her are drawn-in elements of a tea kettle and tea cups, leafy plant, and a crescent moon and stars, indicating her personal interests of gardening, drinking tea, and all things lunar"
         />
       </section>
 
       <section>
         <h2>Approach</h2>
         <p>
-          I am passionate about design systems, accessibility, and
-          problem-solving on the DOM. I enjoy sitting at the intersection of
-          product design and software engineering to create practical UI for
-          positive user experiences. As a career-changer, I came to software
-          because I was tired of unintuitive, lazy UI in back office software.
-          Form elements and patterns and other work-horse parts of the internet
-          are my favorite.
+          I enjoy sitting at the intersection of product design and software
+          engineering to create practical UI for positive user experiences. As a
+          career-changer, I came to software because I was tired of unintuitive,
+          lazy UI in back office software. Form elements and patterns and other
+          work-horse parts of the internet are my favorite.
         </p>
       </section>
       <section>
@@ -91,11 +89,6 @@ function Home() {
               industry and find their way. I was a moderator of the Denver Devs
               online community from 2018 to 2023, and take the role modeling and
               empathy aspects of leadership seriously.
-            </p>
-            <p>
-              I am a firm believer that companies that won't hire and support
-              junior engineers are doing active harm to the diversity and
-              sustainability of the industry.
             </p>
           </li>
         </ul>
