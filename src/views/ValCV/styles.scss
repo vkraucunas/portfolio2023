@@ -4,18 +4,8 @@
 
   .top,
   section {
-    @media (prefers-reduced-motion: no-preference) {
-      img {
-        scale: 0.2;
-        opacity: 0;
-        animation: fade-in linear forwards;
-      }
-      @keyframes fade-in {
-        to {
-          scale: 1;
-          opacity: 1;
-        }
-      }
+    img {
+      width: 100%;
     }
   }
 
@@ -30,23 +20,25 @@
     }
   }
 
-  .row {
+  section {
+    .row {
+      display: flex;
+      gap: 2.5rem;
+
+      img {
+        max-width: 500px;
+      }
+    }
+
     img {
-      max-width: 500px;
+      margin-bottom: 1.25rem;
     }
   }
 
-  .left {
-    margin-right: 2.5rem;
-  }
-
-  img {
-    margin-bottom: 1.25rem;
-  }
-
   @media (max-width: 880px) {
-    img {
+    section img {
       max-height: 480px;
+      object-fit: contain;
     }
 
     .break {

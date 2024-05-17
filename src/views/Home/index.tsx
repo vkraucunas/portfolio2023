@@ -3,7 +3,7 @@ import headshot from "../../assets/valerie.webp";
 
 function Home() {
   return (
-    <>
+    <div className="home">
       <section className="row">
         <div>
           <h1>Hi there!</h1>
@@ -126,7 +126,7 @@ function Home() {
           </li>
         </ul>
       </section>
-    </>
+    </div>
   );
 }
 
