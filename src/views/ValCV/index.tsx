@@ -22,7 +22,10 @@ function ValCV() {
 
       <section>
         <h2>Borderless VR</h2>
-        <img src={bvr1} alt="Screenshot of Borderless builder" />
+        <img
+          src={bvr1}
+          alt="Decorative array of views from the Borderless no-code VR experience builder"
+        />
         <p>
           I first worked on the Borderless proof of concept with{" "}
           <Link
@@ -54,7 +57,7 @@ function ValCV() {
         </p>
         <img
           src={bvr2}
-          alt="Spread of Borderless no-code VR experience builder"
+          alt="Spread of views from the Borderless no-code VR experience builder"
         />
         <p>
           I also built our API's authentication and authorization flows with AWS
@@ -71,7 +74,7 @@ function ValCV() {
       <section>
         <h2>Spectrum: Kite Design System</h2>
         <div className="row break">
-          <div className="left">
+          <article className="left">
             <p>
               I spent a year-plus on a cross-functional, enterprise design
               system team, where I independently established standards for and
@@ -89,8 +92,11 @@ function ValCV() {
               ultimately delivering a complete, documented set of tokens for
               web, most tokens for TV, and core tokens for Android SDK use.
             </p>
-          </div>
-          <img src={dst1} alt="" className="image-half" />
+          </article>
+          <img
+            src={dst1}
+            alt="Design system visual documentation of a Switch component, exhibiting the switch and its label in on, off, disabled, and focused states"
+          />
         </div>
         <p>
           While on this team, I also co-authored the design system
@@ -98,18 +104,27 @@ function ValCV() {
           managed releases of the design system documentation site, and
           supported non-developers in Git flow.
         </p>
-        <img src={dst2} alt="" />
+        <img
+          src={dst2}
+          alt="View of a design system switch element documentation in Storybook.js"
+        />
       </section>
       <section>
         <h2>Spectrum: UX Prototyping</h2>
-        <img src={proto1} alt="" />
+        <img
+          src={proto1}
+          alt="UX and UI Design exploration of a user portal landing page encouraging users to complete account setup steps"
+        />
         <p>
           For over two years, I was a member of a multidisciplinary design group
           building high-fidelity code prototypes for rapid proofs of concept and
           user testing. This group's work was heavily focused on advanced
           settings screens in user portals.
         </p>
-        <img src={proto2} alt="" />
+        <img
+          src={proto2}
+          alt="Prototype of a Wifi captive portal sign in view, customized for an Airbnb with additional view controls at the bottom of the image"
+        />
         <p>
           Acting as the "dev in the room," I was able to engage the designers'
           hypotheticals and answer questions early in the process, saving time
@@ -121,7 +136,7 @@ function ValCV() {
       </section>
       <section>
         <h2>MassRoots</h2>
-        <img src={massroots} alt="Massroots homepage" />
+        <img src={massroots} alt="Massroots homepage view" />
         <p>
           I worked on a team that delivered a company site rebrand and rewrote a
           social media application. I also participated in the integration and
@@ -145,7 +160,7 @@ function ValCV() {
               peer code review process for the students.
             </p>
           </div>
-          <img src={galvanize} alt="" />
+          <img src={galvanize} alt="Student focused in a code editor" />
         </div>
       </section>
       <section>
