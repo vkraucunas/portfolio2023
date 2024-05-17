@@ -7,11 +7,12 @@ import proto1 from "../../assets/proto0.png";
 import proto2 from "../../assets/proto4.png";
 import massroots from "../../assets/mr.png";
 import galvanize from "../../assets/galvanize.jpeg";
-import resume from "../../assets/VKraucunas_Resume_2024.pdf";
+import resume from "../../assets/VKraucunas_2024_Resume_web.pdf";
 import "./styles.scss";
+
 function ValCV() {
   return (
-    <div>
+    <div className="cvpage">
       <div className="top">
         <h1>Work Log</h1>
         <a download href={resume}>

@@ -1,43 +1,60 @@
-.top,
-section {
-  margin-bottom: 4rem;
-}
+.cvpage {
+  display: grid;
+  gap: 2rem;
 
-.top {
-  h1 {
-    padding: 0;
-    margin-bottom: 1rem;
+  .top,
+  section {
+    @media (prefers-reduced-motion: no-preference) {
+      img {
+        scale: 0.2;
+        opacity: 0;
+        animation: fade-in linear forwards;
+      }
+      @keyframes fade-in {
+        to {
+          scale: 1;
+          opacity: 1;
+        }
+      }
+    }
   }
 
-  h2 {
-    font-size: 1.25rem;
-  }
-}
+  .top {
+    h1 {
+      padding: 0;
+      margin-bottom: 1rem;
+    }
 
-.row {
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .row {
+    img {
+      max-width: 500px;
+    }
+  }
+
+  .left {
+    margin-right: 2.5rem;
+  }
+
   img {
-    max-width: 500px;
-  }
-}
-
-.left {
-  margin-right: 2.5rem;
-}
-
-img {
-  margin-bottom: 1.25rem;
-}
-
-@media (max-width: 880px) {
-  img {
-    max-height: 480px;
+    margin-bottom: 1.25rem;
   }
 
-  .break {
-    flex-direction: column;
+  @media (max-width: 880px) {
+    img {
+      max-height: 480px;
+    }
 
-    .left {
-      margin-right: 0;
+    .break {
+      flex-direction: column;
+
+      .left {
+        margin-right: 0;
+      }
     }
   }
 }
