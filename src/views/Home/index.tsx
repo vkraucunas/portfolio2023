@@ -116,13 +116,13 @@ function Home() {
         <h2>What else?</h2>
         <ul className="skilllist">
           <li>
-            <strong>How is Kraucunas pronounced?</strong> "cruh soon uss" It
-            trips up most folks, so don't feel bad
+            <strong>How is Kraucunas pronounced?</strong> "cruh soon uss"
           </li>
           <li>
-            <strong>What do you get up to outside of work?</strong> I enjoy
-            gardening, video games, and getting outside to appreciate the beauty
-            Colorado has to offer.
+            <strong>What do you get up to outside of work?</strong> I am a
+            nature nerd, and enjoy regenerative gardening, birding, and nature
+            photography. In the colder months, I am fond of video games and
+            making art.
           </li>
         </ul>
       </section>
